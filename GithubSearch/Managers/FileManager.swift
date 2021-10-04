@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol FileManagerProtocol {
+    
+}
+
+extension FileManager: FileManagerProtocol {
+    
+}

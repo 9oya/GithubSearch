@@ -6,3 +6,4 @@
 *.xcscmblueprint
 xcschememanagement.plist
 IDEWorkspaceChecks.plist
+xcuserdata/

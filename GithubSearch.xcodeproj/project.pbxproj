@@ -17,11 +17,15 @@
 		BF91C182270AE85E00F7CA1E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C181270AE85E00F7CA1E /* HomeViewModel.swift */; };
 		BF91C184270AE9DB00F7CA1E /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C183270AE9DB00F7CA1E /* UIViewController+Rx.swift */; };
 		BF91C186270AE9F100F7CA1E /* RepoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C185270AE9F100F7CA1E /* RepoTableCell.swift */; };
-		BF91C188270AE9F800F7CA1E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C187270AE9F800F7CA1E /* SessionManager.swift */; };
-		BF91C18A270AEA0A00F7CA1E /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C189270AEA0A00F7CA1E /* FileManager.swift */; };
+		BF91C188270AE9F800F7CA1E /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C187270AE9F800F7CA1E /* URLSessionManager.swift */; };
+		BF91C18A270AEA0A00F7CA1E /* BundleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C189270AEA0A00F7CA1E /* BundleManager.swift */; };
 		BF91C18C270AEA3B00F7CA1E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C18B270AEA3B00F7CA1E /* NetworkService.swift */; };
 		BF91C18E270AEA4200F7CA1E /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C18D270AEA4200F7CA1E /* CacheService.swift */; };
 		BF91C190270AEA4F00F7CA1E /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C18F270AEA4F00F7CA1E /* RepoModel.swift */; };
+		BF91C192270B00E600F7CA1E /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C191270B00E600F7CA1E /* FileManager.swift */; };
+		BF91C194270B00F900F7CA1E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C193270B00F900F7CA1E /* CoreDataManager.swift */; };
+		BF91C198270B013A00F7CA1E /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C197270B013A00F7CA1E /* APIRouter.swift */; };
+		BF91C19B270B04B000F7CA1E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C19A270B04B000F7CA1E /* SessionManager.swift */; };
 		CAE322828F38F5C3FAE17FFF /* Pods_GithubSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8144DFDDA5C423E0ED9D18DD /* Pods_GithubSearchTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,11 +57,15 @@
 		BF91C181270AE85E00F7CA1E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		BF91C183270AE9DB00F7CA1E /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
 		BF91C185270AE9F100F7CA1E /* RepoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableCell.swift; sourceTree = "<group>"; };
-		BF91C187270AE9F800F7CA1E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		BF91C189270AEA0A00F7CA1E /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		BF91C187270AE9F800F7CA1E /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		BF91C189270AEA0A00F7CA1E /* BundleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleManager.swift; sourceTree = "<group>"; };
 		BF91C18B270AEA3B00F7CA1E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BF91C18D270AEA4200F7CA1E /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
 		BF91C18F270AEA4F00F7CA1E /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		BF91C191270B00E600F7CA1E /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		BF91C193270B00F900F7CA1E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BF91C197270B013A00F7CA1E /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		BF91C19A270B04B000F7CA1E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		FDFE413F460FF0CCC897EECF /* Pods_GithubSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +135,7 @@
 				BF91C17D270AE7CF00F7CA1E /* Models */,
 				BF91C17C270AE7CA00F7CA1E /* Services */,
 				BF91C17B270AE7C500F7CA1E /* Managers */,
+				BF91C196270B011200F7CA1E /* Utilities */,
 				BF91C17A270AE7BE00F7CA1E /* Extensions */,
 				BF91C179270AE79100F7CA1E /* UIComponents */,
 				BF91C178270AE77400F7CA1E /* Screens */,
@@ -190,8 +199,11 @@
 		BF91C17B270AE7C500F7CA1E /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				BF91C187270AE9F800F7CA1E /* SessionManager.swift */,
-				BF91C189270AEA0A00F7CA1E /* FileManager.swift */,
+				BF91C187270AE9F800F7CA1E /* URLSessionManager.swift */,
+				BF91C19A270B04B000F7CA1E /* SessionManager.swift */,
+				BF91C189270AEA0A00F7CA1E /* BundleManager.swift */,
+				BF91C191270B00E600F7CA1E /* FileManager.swift */,
+				BF91C193270B00F900F7CA1E /* CoreDataManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -220,6 +232,14 @@
 				BF91C181270AE85E00F7CA1E /* HomeViewModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		BF91C196270B011200F7CA1E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF91C197270B013A00F7CA1E /* APIRouter.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,14 +430,18 @@
 				BF91C190270AEA4F00F7CA1E /* RepoModel.swift in Sources */,
 				BF91C184270AE9DB00F7CA1E /* UIViewController+Rx.swift in Sources */,
 				BF91C156270AE57000F7CA1E /* AppDelegate.swift in Sources */,
+				BF91C192270B00E600F7CA1E /* FileManager.swift in Sources */,
 				BF91C158270AE57000F7CA1E /* SceneDelegate.swift in Sources */,
 				BF91C180270AE85800F7CA1E /* HomeViewController.swift in Sources */,
 				BF91C18E270AEA4200F7CA1E /* CacheService.swift in Sources */,
+				BF91C198270B013A00F7CA1E /* APIRouter.swift in Sources */,
+				BF91C194270B00F900F7CA1E /* CoreDataManager.swift in Sources */,
 				BF91C18C270AEA3B00F7CA1E /* NetworkService.swift in Sources */,
 				BF91C186270AE9F100F7CA1E /* RepoTableCell.swift in Sources */,
+				BF91C19B270B04B000F7CA1E /* SessionManager.swift in Sources */,
 				BF91C182270AE85E00F7CA1E /* HomeViewModel.swift in Sources */,
-				BF91C188270AE9F800F7CA1E /* SessionManager.swift in Sources */,
-				BF91C18A270AEA0A00F7CA1E /* FileManager.swift in Sources */,
+				BF91C188270AE9F800F7CA1E /* URLSessionManager.swift in Sources */,
+				BF91C18A270AEA0A00F7CA1E /* BundleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
