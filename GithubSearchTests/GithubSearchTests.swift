@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import GithubSearch
 
 class GithubSearchTests: XCTestCase {
 
