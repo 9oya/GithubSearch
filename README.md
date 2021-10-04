@@ -1,5 +1,6 @@
 # GithubSearch
 
 - RxSwift
-- MVVM
 - SSPager
+- MVVM
+- TDD
