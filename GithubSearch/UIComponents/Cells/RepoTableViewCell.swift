@@ -9,6 +9,8 @@
 import UIKit
 
 class RepoTableViewCell: UITableViewCell {
+    
+    static let reuseIdentifier = "RepoTableViewCell"
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var lastUpdateLabel: UILabel!

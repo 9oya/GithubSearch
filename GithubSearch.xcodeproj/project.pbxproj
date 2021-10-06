@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A11EEC24901547E2FBFF999A /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFE413F460FF0CCC897EECF /* Pods_GithubSearch.framework */; };
+		BF5FFEF8270BD7EF0003D7C2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFEF7270BD7EF0003D7C2 /* UITableView+Extension.swift */; };
+		BF5FFEFC270BD8C20003D7C2 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFEFA270BD8C20003D7C2 /* RepoTableViewCell.swift */; };
+		BF5FFEFD270BD8C20003D7C2 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFEFB270BD8C20003D7C2 /* RepoTableViewCell.xib */; };
+		BF5FFF01270BD91D0003D7C2 /* DutchSummaryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFF00270BD91D0003D7C2 /* DutchSummaryTableCell.swift */; };
+		BF5FFF05270BD9B30003D7C2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFF03270BD9B30003D7C2 /* SearchViewController.swift */; };
+		BF5FFF06270BD9B30003D7C2 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFF04270BD9B30003D7C2 /* SearchViewController.xib */; };
+		BF5FFF09270BD9D70003D7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFF08270BD9D70003D7C2 /* Main.storyboard */; };
+		BF5FFF0B270BDA730003D7C2 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFF0A270BDA730003D7C2 /* UINavigationController+Extension.swift */; };
+		BF5FFF0E270C0D400003D7C2 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFF0D270C0D400003D7C2 /* PagingViewController.swift */; };
 		BF91C156270AE57000F7CA1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C155270AE57000F7CA1E /* AppDelegate.swift */; };
 		BF91C158270AE57000F7CA1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C157270AE57000F7CA1E /* SceneDelegate.swift */; };
 		BF91C15F270AE57200F7CA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF91C15E270AE57200F7CA1E /* Assets.xcassets */; };
@@ -45,6 +54,15 @@
 		622F4C8DD27AD40001D05ECC /* Pods-GithubSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearchTests.release.xcconfig"; path = "Target Support Files/Pods-GithubSearchTests/Pods-GithubSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		8144DFDDA5C423E0ED9D18DD /* Pods_GithubSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1B5C7B4BF52FCA1AC463AB /* Pods-GithubSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch.release.xcconfig"; path = "Target Support Files/Pods-GithubSearch/Pods-GithubSearch.release.xcconfig"; sourceTree = "<group>"; };
+		BF5FFEF7270BD7EF0003D7C2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		BF5FFEFA270BD8C20003D7C2 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		BF5FFEFB270BD8C20003D7C2 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
+		BF5FFF00270BD91D0003D7C2 /* DutchSummaryTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DutchSummaryTableCell.swift; sourceTree = "<group>"; };
+		BF5FFF03270BD9B30003D7C2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BF5FFF04270BD9B30003D7C2 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		BF5FFF08270BD9D70003D7C2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BF5FFF0A270BDA730003D7C2 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		BF5FFF0D270C0D400003D7C2 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
 		BF91C152270AE57000F7CA1E /* GithubSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF91C155270AE57000F7CA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF91C157270AE57000F7CA1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +125,41 @@
 				8144DFDDA5C423E0ED9D18DD /* Pods_GithubSearchTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5FFEF9270BD85B0003D7C2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FFF00270BD91D0003D7C2 /* DutchSummaryTableCell.swift */,
+				BF5FFEFA270BD8C20003D7C2 /* RepoTableViewCell.swift */,
+				BF5FFEFB270BD8C20003D7C2 /* RepoTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BF5FFF02270BD9920003D7C2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FFF03270BD9B30003D7C2 /* SearchViewController.swift */,
+				BF5FFF04270BD9B30003D7C2 /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BF5FFF07270BD9CD0003D7C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FFF08270BD9D70003D7C2 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BF5FFF0C270C0D2C0003D7C2 /* ScrollViewPaging */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FFF0D270C0D400003D7C2 /* PagingViewController.swift */,
+			);
+			path = ScrollViewPaging;
 			sourceTree = "<group>";
 		};
 		BF91C149270AE57000F7CA1E = {
@@ -175,6 +228,9 @@
 		BF91C178270AE77400F7CA1E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BF5FFF0C270C0D2C0003D7C2 /* ScrollViewPaging */,
+				BF5FFF07270BD9CD0003D7C2 /* Main */,
+				BF5FFF02270BD9920003D7C2 /* Search */,
 				BF91C17E270AE84E00F7CA1E /* Home */,
 			);
 			path = Screens;
@@ -183,6 +239,7 @@
 		BF91C179270AE79100F7CA1E /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				BF5FFEF9270BD85B0003D7C2 /* Cells */,
 				BF91C185270AE9F100F7CA1E /* RepoTableCell.swift */,
 			);
 			path = UIComponents;
@@ -192,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				BF91C183270AE9DB00F7CA1E /* UIViewController+Rx.swift */,
+				BF5FFEF7270BD7EF0003D7C2 /* UITableView+Extension.swift */,
+				BF5FFF0A270BDA730003D7C2 /* UINavigationController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -328,7 +387,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF91C162270AE57200F7CA1E /* LaunchScreen.storyboard in Resources */,
+				BF5FFF09270BD9D70003D7C2 /* Main.storyboard in Resources */,
 				BF91C15F270AE57200F7CA1E /* Assets.xcassets in Resources */,
+				BF5FFF06270BD9B30003D7C2 /* SearchViewController.xib in Resources */,
+				BF5FFEFD270BD8C20003D7C2 /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +490,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF91C190270AEA4F00F7CA1E /* RepoModel.swift in Sources */,
+				BF5FFEFC270BD8C20003D7C2 /* RepoTableViewCell.swift in Sources */,
 				BF91C184270AE9DB00F7CA1E /* UIViewController+Rx.swift in Sources */,
 				BF91C156270AE57000F7CA1E /* AppDelegate.swift in Sources */,
+				BF5FFF05270BD9B30003D7C2 /* SearchViewController.swift in Sources */,
+				BF5FFF01270BD91D0003D7C2 /* DutchSummaryTableCell.swift in Sources */,
 				BF91C192270B00E600F7CA1E /* FileManager.swift in Sources */,
+				BF5FFF0B270BDA730003D7C2 /* UINavigationController+Extension.swift in Sources */,
 				BF91C158270AE57000F7CA1E /* SceneDelegate.swift in Sources */,
 				BF91C180270AE85800F7CA1E /* HomeViewController.swift in Sources */,
 				BF91C18E270AEA4200F7CA1E /* CacheService.swift in Sources */,
 				BF91C198270B013A00F7CA1E /* APIRouter.swift in Sources */,
+				BF5FFF0E270C0D400003D7C2 /* PagingViewController.swift in Sources */,
 				BF91C194270B00F900F7CA1E /* CoreDataManager.swift in Sources */,
 				BF91C18C270AEA3B00F7CA1E /* NetworkService.swift in Sources */,
 				BF91C186270AE9F100F7CA1E /* RepoTableCell.swift in Sources */,
@@ -442,6 +509,7 @@
 				BF91C182270AE85E00F7CA1E /* HomeViewModel.swift in Sources */,
 				BF91C188270AE9F800F7CA1E /* URLSessionManager.swift in Sources */,
 				BF91C18A270AEA0A00F7CA1E /* BundleManager.swift in Sources */,
+				BF5FFEF8270BD7EF0003D7C2 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

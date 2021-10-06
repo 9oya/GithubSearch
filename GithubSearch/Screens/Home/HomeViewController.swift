@@ -16,6 +16,11 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController {
+
+    private func registerCells() {
+        
+    }
+    
     private func setupLayout() {
         view.backgroundColor = .systemGray6
     }
