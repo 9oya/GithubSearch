@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A11EEC24901547E2FBFF999A /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFE413F460FF0CCC897EECF /* Pods_GithubSearch.framework */; };
+		BF41FB5B27105F5400E3D88D /* CanvasViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41FB5A27105F5400E3D88D /* CanvasViewcontroller.swift */; };
 		BF5FFEF8270BD7EF0003D7C2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFEF7270BD7EF0003D7C2 /* UITableView+Extension.swift */; };
 		BF5FFEFC270BD8C20003D7C2 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFEFA270BD8C20003D7C2 /* RepoTableViewCell.swift */; };
 		BF5FFEFD270BD8C20003D7C2 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFEFB270BD8C20003D7C2 /* RepoTableViewCell.xib */; };
@@ -54,6 +55,7 @@
 		622F4C8DD27AD40001D05ECC /* Pods-GithubSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearchTests.release.xcconfig"; path = "Target Support Files/Pods-GithubSearchTests/Pods-GithubSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		8144DFDDA5C423E0ED9D18DD /* Pods_GithubSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1B5C7B4BF52FCA1AC463AB /* Pods-GithubSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch.release.xcconfig"; path = "Target Support Files/Pods-GithubSearch/Pods-GithubSearch.release.xcconfig"; sourceTree = "<group>"; };
+		BF41FB5A27105F5400E3D88D /* CanvasViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewcontroller.swift; sourceTree = "<group>"; };
 		BF5FFEF7270BD7EF0003D7C2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		BF5FFEFA270BD8C20003D7C2 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		BF5FFEFB270BD8C20003D7C2 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 				8144DFDDA5C423E0ED9D18DD /* Pods_GithubSearchTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF41FB5927105F3B00E3D88D /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				BF41FB5A27105F5400E3D88D /* CanvasViewcontroller.swift */,
+			);
+			path = Canvas;
 			sourceTree = "<group>";
 		};
 		BF5FFEF9270BD85B0003D7C2 /* Cells */ = {
@@ -228,6 +238,7 @@
 		BF91C178270AE77400F7CA1E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BF41FB5927105F3B00E3D88D /* Canvas */,
 				BF5FFF0C270C0D2C0003D7C2 /* ScrollViewPaging */,
 				BF5FFF07270BD9CD0003D7C2 /* Main */,
 				BF5FFF02270BD9920003D7C2 /* Search */,
@@ -495,6 +506,7 @@
 				BF91C156270AE57000F7CA1E /* AppDelegate.swift in Sources */,
 				BF5FFF05270BD9B30003D7C2 /* SearchViewController.swift in Sources */,
 				BF5FFF01270BD91D0003D7C2 /* DutchSummaryTableCell.swift in Sources */,
+				BF41FB5B27105F5400E3D88D /* CanvasViewcontroller.swift in Sources */,
 				BF91C192270B00E600F7CA1E /* FileManager.swift in Sources */,
 				BF5FFF0B270BDA730003D7C2 /* UINavigationController+Extension.swift in Sources */,
 				BF91C158270AE57000F7CA1E /* SceneDelegate.swift in Sources */,
