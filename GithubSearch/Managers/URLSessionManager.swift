@@ -14,7 +14,11 @@ protocol URLSessionManagerManagerProtocol {
 
 final class URLSessionManager: URLSessionManagerManagerProtocol {
     
-    static let shared: URLSessionManager = URLSessionManager()
+    private let session: URLSession
+    
+    init(session: URLSession = .shared) {
+        self.session = session
+    }
     
     func request<T>(request: URLRequest, type: T.Type) -> Single<T> where T: Codable {
         return Single.create { observer -> Disposable in
@@ -42,6 +46,40 @@ final class URLSessionManager: URLSessionManagerManagerProtocol {
                         }
                     }
                 }
+            
+            dataTask.resume()
+            return Disposables.create {
+                dataTask.cancel()
+            }
+        }
+    }
+    
+    func request<T>(url: URL, type: T.Type) -> Single<T> where T: Codable {
+        
+        return Single.create { single -> Disposable in
+            
+            let dataTask = self.session.dataTask(with: url) { data, response, error in
+                if let data = data,
+                   let response = response as? HTTPURLResponse {
+                    if response.statusCode == 200 {
+                        do {
+                            let decodedData = try JSONDecoder().decode(type, from: data)
+                            single(.success(decodedData))
+                        } catch let error {
+                            single(.failure(error))
+                        }
+                    } else {
+                        let jsonValue = try? JSONSerialization.jsonObject(with: data,
+                                                                          options: .allowFragments)
+                        let error = NSError(domain: "",
+                                            code: response.statusCode,
+                                            userInfo:
+                                                [NSLocalizedDescriptionKey:
+                                                    String(describing: jsonValue)]) as Error
+                        single(.failure(error))
+                    }
+                }
+            }
             
             dataTask.resume()
             return Disposables.create {

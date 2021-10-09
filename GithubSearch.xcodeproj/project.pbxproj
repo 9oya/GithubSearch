@@ -18,6 +18,8 @@
 		BF5FFF09270BD9D70003D7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFF08270BD9D70003D7C2 /* Main.storyboard */; };
 		BF5FFF0B270BDA730003D7C2 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFF0A270BDA730003D7C2 /* UINavigationController+Extension.swift */; };
 		BF5FFF0E270C0D400003D7C2 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFF0D270C0D400003D7C2 /* PagingViewController.swift */; };
+		BF77E2A827112E34006B86A8 /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77E2A727112E34006B86A8 /* CellConfigurator.swift */; };
+		BF77E2AB27115149006B86A8 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77E2AA27115149006B86A8 /* URLSessionProtocol.swift */; };
 		BF91C156270AE57000F7CA1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C155270AE57000F7CA1E /* AppDelegate.swift */; };
 		BF91C158270AE57000F7CA1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C157270AE57000F7CA1E /* SceneDelegate.swift */; };
 		BF91C15F270AE57200F7CA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF91C15E270AE57200F7CA1E /* Assets.xcassets */; };
@@ -65,6 +67,8 @@
 		BF5FFF08270BD9D70003D7C2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BF5FFF0A270BDA730003D7C2 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		BF5FFF0D270C0D400003D7C2 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		BF77E2A727112E34006B86A8 /* CellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
+		BF77E2AA27115149006B86A8 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		BF91C152270AE57000F7CA1E /* GithubSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF91C155270AE57000F7CA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF91C157270AE57000F7CA1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -274,6 +278,7 @@
 				BF91C189270AEA0A00F7CA1E /* BundleManager.swift */,
 				BF91C191270B00E600F7CA1E /* FileManager.swift */,
 				BF91C193270B00F900F7CA1E /* CoreDataManager.swift */,
+				BF77E2AA27115149006B86A8 /* URLSessionProtocol.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				BF91C197270B013A00F7CA1E /* APIRouter.swift */,
+				BF77E2A727112E34006B86A8 /* CellConfigurator.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -510,10 +516,12 @@
 				BF91C192270B00E600F7CA1E /* FileManager.swift in Sources */,
 				BF5FFF0B270BDA730003D7C2 /* UINavigationController+Extension.swift in Sources */,
 				BF91C158270AE57000F7CA1E /* SceneDelegate.swift in Sources */,
+				BF77E2A827112E34006B86A8 /* CellConfigurator.swift in Sources */,
 				BF91C180270AE85800F7CA1E /* HomeViewController.swift in Sources */,
 				BF91C18E270AEA4200F7CA1E /* CacheService.swift in Sources */,
 				BF91C198270B013A00F7CA1E /* APIRouter.swift in Sources */,
 				BF5FFF0E270C0D400003D7C2 /* PagingViewController.swift in Sources */,
+				BF77E2AB27115149006B86A8 /* URLSessionProtocol.swift in Sources */,
 				BF91C194270B00F900F7CA1E /* CoreDataManager.swift in Sources */,
 				BF91C18C270AEA3B00F7CA1E /* NetworkService.swift in Sources */,
 				BF91C186270AE9F100F7CA1E /* RepoTableCell.swift in Sources */,
