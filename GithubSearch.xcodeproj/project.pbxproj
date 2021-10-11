@@ -38,6 +38,7 @@
 		BF91C194270B00F900F7CA1E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C193270B00F900F7CA1E /* CoreDataManager.swift */; };
 		BF91C198270B013A00F7CA1E /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C197270B013A00F7CA1E /* APIRouter.swift */; };
 		BF91C19B270B04B000F7CA1E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C19A270B04B000F7CA1E /* SessionManager.swift */; };
+		BFCF11822713EC3E00DA07C9 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF11812713EC3E00DA07C9 /* AsyncOperation.swift */; };
 		CAE322828F38F5C3FAE17FFF /* Pods_GithubSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8144DFDDA5C423E0ED9D18DD /* Pods_GithubSearchTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		BF91C193270B00F900F7CA1E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		BF91C197270B013A00F7CA1E /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		BF91C19A270B04B000F7CA1E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		BFCF11812713EC3E00DA07C9 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
 		FDFE413F460FF0CCC897EECF /* Pods_GithubSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -314,6 +316,7 @@
 			children = (
 				BF91C197270B013A00F7CA1E /* APIRouter.swift */,
 				BF77E2A727112E34006B86A8 /* CellConfigurator.swift */,
+				BFCF11812713EC3E00DA07C9 /* AsyncOperation.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 				BF77E2AB27115149006B86A8 /* URLSessionProtocol.swift in Sources */,
 				BF91C194270B00F900F7CA1E /* CoreDataManager.swift in Sources */,
 				BF91C18C270AEA3B00F7CA1E /* NetworkService.swift in Sources */,
+				BFCF11822713EC3E00DA07C9 /* AsyncOperation.swift in Sources */,
 				BF91C186270AE9F100F7CA1E /* RepoTableCell.swift in Sources */,
 				BF91C19B270B04B000F7CA1E /* SessionManager.swift in Sources */,
 				BF91C182270AE85E00F7CA1E /* HomeViewModel.swift in Sources */,
